@@ -5,11 +5,19 @@ export default function Home() {
   return(
     <div>
       <Head>
-        <h1>Events App</h1>
+        <title>Events App</title>
       </Head>
         
       <main>
-        main
+        <header>
+          <nav>
+            <img/>
+            <a href="/">Home</a>
+            <a href="/events/event">Events</a>
+            <a href="/about">About Us</a>
+          </nav>
+        </header>
+        
         
 
       </main>
