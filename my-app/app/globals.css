@@ -21,7 +21,21 @@
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(
+        var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
 } */
+
+div, h1,h2,p{
+  margin: 10px;
+}
+nav{
+  margin-left: 500px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  justify-items: center;
+  
+}
+
